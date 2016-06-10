@@ -7,6 +7,14 @@ var app = angular.module('wwr', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   //$locationProvider.hashPrefix('!');
 
+  $routeProvider.
+    when('/', {templateUrl: 'home.html'}).
+    when('/projects', {templateUrl: 'projects.html'}).
+    when('/analyzedCommits', {templateUrl: 'analyzedCommits.html'}).
+    when('/allCommits', {templateUrl: 'allCommits.html'}).
+    when('/thematicAnalysis', {templateUrl: 'thematicAnalysis.html'}).
+    otherwise({redirectTo: '/'});
+
   //$routeProvider.otherwise({redirectTo: '/view1'});
 }]);
 
