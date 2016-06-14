@@ -1,0 +1,1118 @@
+[
+    {
+        "id": 87,
+        "name": "JetBrains/intellij-community",
+        "repository": "https://github.com/JetBrains/intellij-community.git",
+        "creationDate": "9/30/11",
+        "commits": 162625,
+        "javaFiles": 47552,
+        "contributors": 306
+    },
+    {
+        "id": 507,
+        "name": "JetBrains/MPS",
+        "repository": "https://github.com/JetBrains/MPS.git",
+        "creationDate": "8/15/11",
+        "commits": 66445,
+        "javaFiles": 19226,
+        "contributors": 60
+    },
+    {
+        "id": 922,
+        "name": "CyanogenMod/android_frameworks_base",
+        "repository": "https://github.com/CyanogenMod/android_frameworks_base.git",
+        "creationDate": "5/13/13",
+        "commits": 62208,
+        "javaFiles": 5482,
+        "contributors": 2568
+    },
+    {
+        "id": 587,
+        "name": "liferay/liferay-plugins",
+        "repository": "https://github.com/liferay/liferay-plugins.git",
+        "creationDate": "9/25/09",
+        "commits": 33929,
+        "javaFiles": 2024,
+        "contributors": 344
+    },
+    {
+        "id": 111,
+        "name": "neo4j/neo4j",
+        "repository": "https://github.com/neo4j/neo4j.git",
+        "creationDate": "11/12/12",
+        "commits": 29187,
+        "javaFiles": 4607,
+        "contributors": 150
+    },
+    {
+        "id": 621,
+        "name": "apache/camel",
+        "repository": "https://github.com/apache/camel.git",
+        "creationDate": "5/21/09",
+        "commits": 27774,
+        "javaFiles": 12535,
+        "contributors": 191
+    },
+    {
+        "id": 70,
+        "name": "gradle/gradle",
+        "repository": "https://github.com/gradle/gradle.git",
+        "creationDate": "9/9/09",
+        "commits": 27671,
+        "javaFiles": 5448,
+        "contributors": 208
+    },
+    {
+        "id": 97,
+        "name": "processing/processing",
+        "repository": "https://github.com/processing/processing.git",
+        "creationDate": "1/24/13",
+        "commits": 23624,
+        "javaFiles": 233,
+        "contributors": 98
+    },
+    {
+        "id": 1,
+        "name": "elastic/elasticsearch",
+        "repository": "https://github.com/elastic/elasticsearch.git",
+        "creationDate": "2/8/10",
+        "commits": 23095,
+        "javaFiles": 4147,
+        "contributors": 542
+    },
+    {
+        "id": 841,
+        "name": "belaban/JGroups",
+        "repository": "https://github.com/belaban/JGroups.git",
+        "creationDate": "11/7/10",
+        "commits": 20365,
+        "javaFiles": 643,
+        "contributors": 85
+    },
+    {
+        "id": 573,
+        "name": "osmandapp/Osmand",
+        "repository": "https://github.com/osmandapp/Osmand.git",
+        "creationDate": "1/15/11",
+        "commits": 19799,
+        "javaFiles": 599,
+        "contributors": 478
+    },
+    {
+        "id": 143,
+        "name": "wildfly/wildfly",
+        "repository": "https://github.com/wildfly/wildfly.git",
+        "creationDate": "7/8/10",
+        "commits": 17898,
+        "javaFiles": 7012,
+        "contributors": 313
+    },
+    {
+        "id": 441,
+        "name": "SonarSource/sonarqube",
+        "repository": "https://github.com/SonarSource/sonarqube.git",
+        "creationDate": "1/5/11",
+        "commits": 17145,
+        "javaFiles": 3937,
+        "contributors": 49
+    },
+    {
+        "id": 519,
+        "name": "VoltDB/voltdb",
+        "repository": "https://github.com/VoltDB/voltdb.git",
+        "creationDate": "9/23/11",
+        "commits": 16719,
+        "javaFiles": 2657,
+        "contributors": 94
+    },
+    {
+        "id": 820,
+        "name": "languagetool-org/languagetool",
+        "repository": "https://github.com/languagetool-org/languagetool.git",
+        "creationDate": "8/8/13",
+        "commits": 15734,
+        "javaFiles": 957,
+        "contributors": 62
+    },
+    {
+        "id": 161,
+        "name": "grails/grails-core",
+        "repository": "https://github.com/grails/grails-core.git",
+        "creationDate": "2/10/10",
+        "commits": 15340,
+        "javaFiles": 782,
+        "contributors": 235
+    },
+    {
+        "id": 458,
+        "name": "apache/hive",
+        "repository": "https://github.com/apache/hive.git",
+        "creationDate": "5/21/09",
+        "commits": 14252,
+        "javaFiles": 4066,
+        "contributors": 92
+    },
+    {
+        "id": 907,
+        "name": "fabric8io/fabric8",
+        "repository": "https://github.com/fabric8io/fabric8.git",
+        "creationDate": "4/13/11",
+        "commits": 13083,
+        "javaFiles": 937,
+        "contributors": 101
+    },
+    {
+        "id": 193,
+        "name": "hazelcast/hazelcast",
+        "repository": "https://github.com/hazelcast/hazelcast.git",
+        "creationDate": "3/21/12",
+        "commits": 13073,
+        "javaFiles": 4403,
+        "contributors": 162
+    },
+    {
+        "id": 82,
+        "name": "apache/cassandra",
+        "repository": "https://github.com/apache/cassandra.git",
+        "creationDate": "5/21/09",
+        "commits": 12630,
+        "javaFiles": 1680,
+        "contributors": 153
+    },
+    {
+        "id": 220,
+        "name": "rstudio/rstudio",
+        "repository": "https://github.com/rstudio/rstudio.git",
+        "creationDate": "12/7/10",
+        "commits": 12383,
+        "javaFiles": 1719,
+        "contributors": 42
+    },
+    {
+        "id": 11,
+        "name": "spring-projects/spring-framework",
+        "repository": "https://github.com/spring-projects/spring-framework.git",
+        "creationDate": "12/8/10",
+        "commits": 12266,
+        "javaFiles": 6197,
+        "contributors": 155
+    },
+    {
+        "id": 679,
+        "name": "droolsjbpm/drools",
+        "repository": "https://github.com/droolsjbpm/drools.git",
+        "creationDate": "2/18/11",
+        "commits": 12061,
+        "javaFiles": 3919,
+        "contributors": 122
+    },
+    {
+        "id": 545,
+        "name": "BroadleafCommerce/BroadleafCommerce",
+        "repository": "https://github.com/BroadleafCommerce/BroadleafCommerce.git",
+        "creationDate": "12/9/11",
+        "commits": 11474,
+        "javaFiles": 2331,
+        "contributors": 68
+    },
+    {
+        "id": 552,
+        "name": "eclipse/jetty.project",
+        "repository": "https://github.com/eclipse/jetty.project.git",
+        "creationDate": "7/14/11",
+        "commits": 10247,
+        "javaFiles": 2452,
+        "contributors": 27
+    },
+    {
+        "id": 908,
+        "name": "restlet/restlet-framework-java",
+        "repository": "https://github.com/restlet/restlet-framework-java.git",
+        "creationDate": "12/16/11",
+        "commits": 10018,
+        "javaFiles": 1986,
+        "contributors": 53
+    },
+    {
+        "id": 100,
+        "name": "orientechnologies/orientdb",
+        "repository": "https://github.com/orientechnologies/orientdb.git",
+        "creationDate": "12/9/12",
+        "commits": 9941,
+        "javaFiles": 2056,
+        "contributors": 110
+    },
+    {
+        "id": 870,
+        "name": "gwtproject/gwt",
+        "repository": "https://github.com/gwtproject/gwt.git",
+        "creationDate": "4/18/13",
+        "commits": 9707,
+        "javaFiles": 7378,
+        "contributors": 316
+    },
+    {
+        "id": 181,
+        "name": "hibernate/hibernate-orm",
+        "repository": "https://github.com/hibernate/hibernate-orm.git",
+        "creationDate": "10/4/10",
+        "commits": 9606,
+        "javaFiles": 7968,
+        "contributors": 233
+    },
+    {
+        "id": 698,
+        "name": "infinispan/infinispan",
+        "repository": "https://github.com/infinispan/infinispan.git",
+        "creationDate": "11/4/10",
+        "commits": 9408,
+        "javaFiles": 5192,
+        "contributors": 121
+    },
+    {
+        "id": 8,
+        "name": "libgdx/libgdx",
+        "repository": "https://github.com/libgdx/libgdx.git",
+        "creationDate": "8/10/12",
+        "commits": 9283,
+        "javaFiles": 1994,
+        "contributors": 404
+    },
+    {
+        "id": 359,
+        "name": "wordpress-mobile/WordPress-Android",
+        "repository": "https://github.com/wordpress-mobile/WordPress-Android.git",
+        "creationDate": "4/8/13",
+        "commits": 9207,
+        "javaFiles": 481,
+        "contributors": 65
+    },
+    {
+        "id": 363,
+        "name": "opentripplanner/OpenTripPlanner",
+        "repository": "https://github.com/opentripplanner/OpenTripPlanner.git",
+        "creationDate": "7/18/11",
+        "commits": 8652,
+        "javaFiles": 965,
+        "contributors": 93
+    },
+    {
+        "id": 771,
+        "name": "spring-projects/spring-integration",
+        "repository": "https://github.com/spring-projects/spring-integration.git",
+        "creationDate": "7/22/11",
+        "commits": 7887,
+        "javaFiles": 2390,
+        "contributors": 79
+    },
+    {
+        "id": 430,
+        "name": "cgeo/cgeo",
+        "repository": "https://github.com/cgeo/cgeo.git",
+        "creationDate": "7/11/11",
+        "commits": 6691,
+        "javaFiles": 699,
+        "contributors": 98
+    },
+    {
+        "id": 894,
+        "name": "JetBrains/intellij-plugins",
+        "repository": "https://github.com/JetBrains/intellij-plugins.git",
+        "creationDate": "8/17/12",
+        "commits": 6550,
+        "javaFiles": 2567,
+        "contributors": 111
+    },
+    {
+        "id": 91,
+        "name": "k9mail/k-9",
+        "repository": "https://github.com/k9mail/k-9.git",
+        "creationDate": "2/4/11",
+        "commits": 6395,
+        "javaFiles": 350,
+        "contributors": 170
+    },
+    {
+        "id": 504,
+        "name": "querydsl/querydsl",
+        "repository": "https://github.com/querydsl/querydsl.git",
+        "creationDate": "8/5/11",
+        "commits": 6322,
+        "javaFiles": 2007,
+        "contributors": 50
+    },
+    {
+        "id": 927,
+        "name": "checkstyle/checkstyle",
+        "repository": "https://github.com/checkstyle/checkstyle.git",
+        "creationDate": "8/31/13",
+        "commits": 6156,
+        "javaFiles": 1154,
+        "contributors": 81
+    },
+    {
+        "id": 690,
+        "name": "geoserver/geoserver",
+        "repository": "https://github.com/geoserver/geoserver.git",
+        "creationDate": "11/10/11",
+        "commits": 5893,
+        "javaFiles": 5041,
+        "contributors": 177
+    },
+    {
+        "id": 415,
+        "name": "Jasig/cas",
+        "repository": "https://github.com/Jasig/cas.git",
+        "creationDate": "9/9/11",
+        "commits": 5716,
+        "javaFiles": 692,
+        "contributors": 85
+    },
+    {
+        "id": 30,
+        "name": "facebook/presto",
+        "repository": "https://github.com/facebook/presto.git",
+        "creationDate": "8/9/12",
+        "commits": 5646,
+        "javaFiles": 2283,
+        "contributors": 104
+    },
+    {
+        "id": 167,
+        "name": "openhab/openhab",
+        "repository": "https://github.com/openhab/openhab.git",
+        "creationDate": "9/20/13",
+        "commits": 5547,
+        "javaFiles": 2898,
+        "contributors": 317
+    },
+    {
+        "id": 168,
+        "name": "google/closure-compiler",
+        "repository": "https://github.com/google/closure-compiler.git",
+        "creationDate": "4/16/14",
+        "commits": 5517,
+        "javaFiles": 908,
+        "contributors": 444
+    },
+    {
+        "id": 321,
+        "name": "Activiti/Activiti",
+        "repository": "https://github.com/Activiti/Activiti.git",
+        "creationDate": "9/13/12",
+        "commits": 5416,
+        "javaFiles": 2824,
+        "contributors": 170
+    },
+    {
+        "id": 177,
+        "name": "mongodb/mongo-java-driver",
+        "repository": "https://github.com/mongodb/mongo-java-driver.git",
+        "creationDate": "1/15/09",
+        "commits": 5357,
+        "javaFiles": 881,
+        "contributors": 102
+    },
+    {
+        "id": 946,
+        "name": "structr/structr",
+        "repository": "https://github.com/structr/structr.git",
+        "creationDate": "2/1/11",
+        "commits": 5122,
+        "javaFiles": 1101,
+        "contributors": 22
+    },
+    {
+        "id": 483,
+        "name": "jMonkeyEngine/jmonkeyengine",
+        "repository": "https://github.com/jMonkeyEngine/jmonkeyengine.git",
+        "creationDate": "3/20/14",
+        "commits": 5055,
+        "javaFiles": 1992,
+        "contributors": 86
+    },
+    {
+        "id": 347,
+        "name": "crate/crate",
+        "repository": "https://github.com/crate/crate.git",
+        "creationDate": "4/10/13",
+        "commits": 5032,
+        "javaFiles": 1456,
+        "contributors": 27
+    },
+    {
+        "id": 662,
+        "name": "spring-projects/spring-roo",
+        "repository": "https://github.com/spring-projects/spring-roo.git",
+        "creationDate": "8/31/11",
+        "commits": 5009,
+        "javaFiles": 906,
+        "contributors": 54
+    },
+    {
+        "id": 88,
+        "name": "spring-projects/spring-boot",
+        "repository": "https://github.com/spring-projects/spring-boot.git",
+        "creationDate": "10/19/12",
+        "commits": 5001,
+        "javaFiles": 2194,
+        "contributors": 208
+    },
+    {
+        "id": 157,
+        "name": "Graylog2/graylog2-server",
+        "repository": "https://github.com/Graylog2/graylog2-server.git",
+        "creationDate": "5/17/10",
+        "commits": 4712,
+        "javaFiles": 1319,
+        "contributors": 46
+    },
+    {
+        "id": 208,
+        "name": "MovingBlocks/Terasology",
+        "repository": "https://github.com/MovingBlocks/Terasology.git",
+        "creationDate": "3/4/11",
+        "commits": 4677,
+        "javaFiles": 1826,
+        "contributors": 93
+    },
+    {
+        "id": 158,
+        "name": "amplab/tachyon",
+        "repository": "https://github.com/amplab/tachyon.git",
+        "creationDate": "12/21/12",
+        "commits": 4652,
+        "javaFiles": 367,
+        "contributors": 126
+    },
+    {
+        "id": 183,
+        "name": "facebook/buck",
+        "repository": "https://github.com/facebook/buck.git",
+        "creationDate": "4/17/13",
+        "commits": 4490,
+        "javaFiles": 2421,
+        "contributors": 167
+    },
+    {
+        "id": 243,
+        "name": "deeplearning4j/deeplearning4j",
+        "repository": "https://github.com/deeplearning4j/deeplearning4j.git",
+        "creationDate": "11/27/13",
+        "commits": 4460,
+        "javaFiles": 696,
+        "contributors": 47
+    },
+    {
+        "id": 813,
+        "name": "plutext/docx4j",
+        "repository": "https://github.com/plutext/docx4j.git",
+        "creationDate": "5/11/12",
+        "commits": 4310,
+        "javaFiles": 2813,
+        "contributors": 27
+    },
+    {
+        "id": 722,
+        "name": "open-keychain/open-keychain",
+        "repository": "https://github.com/open-keychain/open-keychain.git",
+        "creationDate": "3/9/12",
+        "commits": 4278,
+        "javaFiles": 260,
+        "contributors": 75
+    },
+    {
+        "id": 323,
+        "name": "jOOQ/jOOQ",
+        "repository": "https://github.com/jOOQ/jOOQ.git",
+        "creationDate": "4/17/11",
+        "commits": 4241,
+        "javaFiles": 1236,
+        "contributors": 38
+    },
+    {
+        "id": 616,
+        "name": "jboss-developer/jboss-eap-quickstarts",
+        "repository": "https://github.com/jboss-developer/jboss-eap-quickstarts.git",
+        "creationDate": "6/9/11",
+        "commits": 3924,
+        "javaFiles": 381,
+        "contributors": 132
+    },
+    {
+        "id": 994,
+        "name": "wicketstuff/core",
+        "repository": "https://github.com/wicketstuff/core.git",
+        "creationDate": "12/29/10",
+        "commits": 3861,
+        "javaFiles": 2386,
+        "contributors": 174
+    },
+    {
+        "id": 743,
+        "name": "droolsjbpm/jbpm",
+        "repository": "https://github.com/droolsjbpm/jbpm.git",
+        "creationDate": "9/22/10",
+        "commits": 3830,
+        "javaFiles": 1704,
+        "contributors": 92
+    },
+    {
+        "id": 456,
+        "name": "ratpack/ratpack",
+        "repository": "https://github.com/ratpack/ratpack.git",
+        "creationDate": "1/22/13",
+        "commits": 3829,
+        "javaFiles": 612,
+        "contributors": 83
+    },
+    {
+        "id": 53,
+        "name": "google/j2objc",
+        "repository": "https://github.com/google/j2objc.git",
+        "creationDate": "1/30/14",
+        "commits": 3820,
+        "javaFiles": 2444,
+        "contributors": 29
+    },
+    {
+        "id": 337,
+        "name": "antlr/antlr4",
+        "repository": "https://github.com/antlr/antlr4.git",
+        "creationDate": "2/4/10",
+        "commits": 3723,
+        "javaFiles": 520,
+        "contributors": 44
+    },
+    {
+        "id": 305,
+        "name": "BuildCraft/BuildCraft",
+        "repository": "https://github.com/BuildCraft/BuildCraft.git",
+        "creationDate": "4/16/12",
+        "commits": 3566,
+        "javaFiles": 1020,
+        "contributors": 187
+    },
+    {
+        "id": 141,
+        "name": "go-lang-plugin-org/go-lang-idea-plugin",
+        "repository": "https://github.com/go-lang-plugin-org/go-lang-idea-plugin.git",
+        "creationDate": "8/29/10",
+        "commits": 3526,
+        "javaFiles": 649,
+        "contributors": 72
+    },
+    {
+        "id": 119,
+        "name": "realm/realm-java",
+        "repository": "https://github.com/realm/realm-java.git",
+        "creationDate": "4/20/12",
+        "commits": 3434,
+        "javaFiles": 230,
+        "contributors": 43
+    },
+    {
+        "id": 551,
+        "name": "oblac/jodd",
+        "repository": "https://github.com/oblac/jodd.git",
+        "creationDate": "9/7/12",
+        "commits": 3126,
+        "javaFiles": 1715,
+        "contributors": 24
+    },
+    {
+        "id": 201,
+        "name": "SecUpwN/Android-IMSI-Catcher-Detector",
+        "repository": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector.git",
+        "creationDate": "11/23/13",
+        "commits": 3076,
+        "javaFiles": 115,
+        "contributors": 43
+    },
+    {
+        "id": 710,
+        "name": "bitcoinj/bitcoinj",
+        "repository": "https://github.com/bitcoinj/bitcoinj.git",
+        "creationDate": "11/19/13",
+        "commits": 2975,
+        "javaFiles": 612,
+        "contributors": 71
+    },
+    {
+        "id": 211,
+        "name": "mockito/mockito",
+        "repository": "https://github.com/mockito/mockito.git",
+        "creationDate": "10/13/12",
+        "commits": 2927,
+        "javaFiles": 735,
+        "contributors": 77
+    },
+    {
+        "id": 748,
+        "name": "abarisain/dmix",
+        "repository": "https://github.com/abarisain/dmix.git",
+        "creationDate": "6/23/10",
+        "commits": 2920,
+        "javaFiles": 145,
+        "contributors": 51
+    },
+    {
+        "id": 784,
+        "name": "SlimeKnights/TinkersConstruct",
+        "repository": "https://github.com/SlimeKnights/TinkersConstruct.git",
+        "creationDate": "1/22/13",
+        "commits": 2884,
+        "javaFiles": 603,
+        "contributors": 128
+    },
+    {
+        "id": 269,
+        "name": "real-logic/Aeron",
+        "repository": "https://github.com/real-logic/Aeron.git",
+        "creationDate": "2/7/14",
+        "commits": 2861,
+        "javaFiles": 244,
+        "contributors": 26
+    },
+    {
+        "id": 582,
+        "name": "cbeust/testng",
+        "repository": "https://github.com/cbeust/testng.git",
+        "creationDate": "6/28/10",
+        "commits": 2701,
+        "javaFiles": 1189,
+        "contributors": 97
+    },
+    {
+        "id": 487,
+        "name": "glyptodon/guacamole-client",
+        "repository": "https://github.com/glyptodon/guacamole-client.git",
+        "creationDate": "6/6/13",
+        "commits": 2659,
+        "javaFiles": 337,
+        "contributors": 17
+    },
+    {
+        "id": 7,
+        "name": "github/android",
+        "repository": "https://github.com/github/android.git",
+        "creationDate": "9/8/11",
+        "commits": 2649,
+        "javaFiles": 300,
+        "contributors": 121
+    },
+    {
+        "id": 683,
+        "name": "apache/drill",
+        "repository": "https://github.com/apache/drill.git",
+        "creationDate": "9/5/12",
+        "commits": 2415,
+        "javaFiles": 1902,
+        "contributors": 65
+    },
+    {
+        "id": 253,
+        "name": "puniverse/quasar",
+        "repository": "https://github.com/puniverse/quasar.git",
+        "creationDate": "3/27/13",
+        "commits": 2343,
+        "javaFiles": 569,
+        "contributors": 10
+    },
+    {
+        "id": 148,
+        "name": "robovm/robovm",
+        "repository": "https://github.com/robovm/robovm.git",
+        "creationDate": "1/7/13",
+        "commits": 2321,
+        "javaFiles": 9703,
+        "contributors": 30
+    },
+    {
+        "id": 453,
+        "name": "FasterXML/jackson-databind",
+        "repository": "https://github.com/FasterXML/jackson-databind.git",
+        "creationDate": "12/23/11",
+        "commits": 2287,
+        "javaFiles": 715,
+        "contributors": 89
+    },
+    {
+        "id": 241,
+        "name": "siacs/Conversations",
+        "repository": "https://github.com/siacs/Conversations.git",
+        "creationDate": "1/24/14",
+        "commits": 2273,
+        "javaFiles": 142,
+        "contributors": 72
+    },
+    {
+        "id": 298,
+        "name": "spotify/helios",
+        "repository": "https://github.com/spotify/helios.git",
+        "creationDate": "5/26/14",
+        "commits": 2171,
+        "javaFiles": 421,
+        "contributors": 23
+    },
+    {
+        "id": 952,
+        "name": "cwensel/cascading",
+        "repository": "https://github.com/cwensel/cascading.git",
+        "creationDate": "2/4/09",
+        "commits": 2040,
+        "javaFiles": 942,
+        "contributors": 12
+    },
+    {
+        "id": 326,
+        "name": "AntennaPod/AntennaPod",
+        "repository": "https://github.com/AntennaPod/AntennaPod.git",
+        "creationDate": "7/31/12",
+        "commits": 2016,
+        "javaFiles": 295,
+        "contributors": 52
+    },
+    {
+        "id": 944,
+        "name": "addthis/hydra",
+        "repository": "https://github.com/addthis/hydra.git",
+        "creationDate": "12/27/13",
+        "commits": 1998,
+        "javaFiles": 968,
+        "contributors": 22
+    },
+    {
+        "id": 581,
+        "name": "datastax/java-driver",
+        "repository": "https://github.com/datastax/java-driver.git",
+        "creationDate": "11/19/12",
+        "commits": 1908,
+        "javaFiles": 397,
+        "contributors": 77
+    },
+    {
+        "id": 23,
+        "name": "WhisperSystems/TextSecure",
+        "repository": "https://github.com/WhisperSystems/TextSecure.git",
+        "creationDate": "12/15/11",
+        "commits": 1907,
+        "javaFiles": 498,
+        "contributors": 104
+    },
+    {
+        "id": 312,
+        "name": "jersey/jersey",
+        "repository": "https://github.com/jersey/jersey.git",
+        "creationDate": "5/18/12",
+        "commits": 1873,
+        "javaFiles": 3083,
+        "contributors": 72
+    },
+    {
+        "id": 802,
+        "name": "spring-projects/spring-data-neo4j",
+        "repository": "https://github.com/spring-projects/spring-data-neo4j.git",
+        "creationDate": "9/27/11",
+        "commits": 1866,
+        "javaFiles": 840,
+        "contributors": 51
+    },
+    {
+        "id": 169,
+        "name": "brettwooldridge/HikariCP",
+        "repository": "https://github.com/brettwooldridge/HikariCP.git",
+        "creationDate": "10/8/13",
+        "commits": 1762,
+        "javaFiles": 76,
+        "contributors": 40
+    },
+    {
+        "id": 751,
+        "name": "ignatov/intellij-erlang",
+        "repository": "https://github.com/ignatov/intellij-erlang.git",
+        "creationDate": "7/24/12",
+        "commits": 1662,
+        "javaFiles": 680,
+        "contributors": 20
+    },
+    {
+        "id": 388,
+        "name": "mongodb/morphia",
+        "repository": "https://github.com/mongodb/morphia.git",
+        "creationDate": "4/25/13",
+        "commits": 1632,
+        "javaFiles": 507,
+        "contributors": 38
+    },
+    {
+        "id": 939,
+        "name": "jenkinsci/workflow-plugin",
+        "repository": "https://github.com/jenkinsci/workflow-plugin.git",
+        "creationDate": "5/10/14",
+        "commits": 1627,
+        "javaFiles": 271,
+        "contributors": 36
+    },
+    {
+        "id": 876,
+        "name": "kuujo/copycat",
+        "repository": "https://github.com/kuujo/copycat.git",
+        "creationDate": "1/27/14",
+        "commits": 1620,
+        "javaFiles": 307,
+        "contributors": 3
+    },
+    {
+        "id": 871,
+        "name": "GoClipse/goclipse",
+        "repository": "https://github.com/GoClipse/goclipse.git",
+        "creationDate": "11/19/13",
+        "commits": 1593,
+        "javaFiles": 689,
+        "contributors": 18
+    },
+    {
+        "id": 650,
+        "name": "raphw/byte-buddy",
+        "repository": "https://github.com/raphw/byte-buddy.git",
+        "creationDate": "11/25/13",
+        "commits": 1433,
+        "javaFiles": 733,
+        "contributors": 11
+    },
+    {
+        "id": 267,
+        "name": "Netflix/eureka",
+        "repository": "https://github.com/Netflix/eureka.git",
+        "creationDate": "7/26/12",
+        "commits": 1346,
+        "javaFiles": 167,
+        "contributors": 48
+    },
+    {
+        "id": 869,
+        "name": "rackerlabs/blueflood",
+        "repository": "https://github.com/rackerlabs/blueflood.git",
+        "creationDate": "5/15/13",
+        "commits": 1315,
+        "javaFiles": 302,
+        "contributors": 26
+    },
+    {
+        "id": 74,
+        "name": "xetorthio/jedis",
+        "repository": "https://github.com/xetorthio/jedis.git",
+        "creationDate": "6/11/10",
+        "commits": 1309,
+        "javaFiles": 155,
+        "contributors": 121
+    },
+    {
+        "id": 991,
+        "name": "jayway/rest-assured",
+        "repository": "https://github.com/jayway/rest-assured.git",
+        "creationDate": "10/21/10",
+        "commits": 1208,
+        "javaFiles": 312,
+        "contributors": 28
+    },
+    {
+        "id": 317,
+        "name": "linkedin/rest.li",
+        "repository": "https://github.com/linkedin/rest.li.git",
+        "creationDate": "11/30/12",
+        "commits": 1140,
+        "javaFiles": 1657,
+        "contributors": 51
+    },
+    {
+        "id": 681,
+        "name": "joel-costigliola/assertj-core",
+        "repository": "https://github.com/joel-costigliola/assertj-core.git",
+        "creationDate": "3/14/13",
+        "commits": 1129,
+        "javaFiles": 2187,
+        "contributors": 79
+    },
+    {
+        "id": 588,
+        "name": "baasbox/baasbox",
+        "repository": "https://github.com/baasbox/baasbox.git",
+        "creationDate": "1/22/13",
+        "commits": 1093,
+        "javaFiles": 359,
+        "contributors": 25
+    },
+    {
+        "id": 428,
+        "name": "RoboBinding/RoboBinding",
+        "repository": "https://github.com/RoboBinding/RoboBinding.git",
+        "creationDate": "9/18/11",
+        "commits": 1013,
+        "javaFiles": 743,
+        "contributors": 9
+    },
+    {
+        "id": 959,
+        "name": "apache/giraph",
+        "repository": "https://github.com/apache/giraph.git",
+        "creationDate": "8/28/11",
+        "commits": 936,
+        "javaFiles": 1296,
+        "contributors": 27
+    },
+    {
+        "id": 957,
+        "name": "spring-projects/spring-data-rest",
+        "repository": "https://github.com/spring-projects/spring-data-rest.git",
+        "creationDate": "3/8/12",
+        "commits": 921,
+        "javaFiles": 327,
+        "contributors": 34
+    },
+    {
+        "id": 259,
+        "name": "redsolution/xabber-android",
+        "repository": "https://github.com/redsolution/xabber-android.git",
+        "creationDate": "1/29/13",
+        "commits": 851,
+        "javaFiles": 429,
+        "contributors": 15
+    },
+    {
+        "id": 9,
+        "name": "loopj/android-async-http",
+        "repository": "https://github.com/loopj/android-async-http.git",
+        "creationDate": "2/20/11",
+        "commits": 742,
+        "javaFiles": 81,
+        "contributors": 90
+    },
+    {
+        "id": 701,
+        "name": "mrniko/redisson",
+        "repository": "https://github.com/mrniko/redisson.git",
+        "creationDate": "1/11/14",
+        "commits": 632,
+        "javaFiles": 199,
+        "contributors": 18
+    },
+    {
+        "id": 799,
+        "name": "google/truth",
+        "repository": "https://github.com/google/truth.git",
+        "creationDate": "6/22/11",
+        "commits": 632,
+        "javaFiles": 94,
+        "contributors": 38
+    },
+    {
+        "id": 719,
+        "name": "phishman3579/java-algorithms-implementation",
+        "repository": "https://github.com/phishman3579/java-algorithms-implementation.git",
+        "creationDate": "11/20/13",
+        "commits": 569,
+        "javaFiles": 124,
+        "contributors": 8
+    },
+    {
+        "id": 518,
+        "name": "hierynomus/sshj",
+        "repository": "https://github.com/hierynomus/sshj.git",
+        "creationDate": "2/27/10",
+        "commits": 504,
+        "javaFiles": 232,
+        "contributors": 29
+    },
+    {
+        "id": 835,
+        "name": "Netflix/zuul",
+        "repository": "https://github.com/Netflix/zuul.git",
+        "creationDate": "3/13/13",
+        "commits": 457,
+        "javaFiles": 70,
+        "contributors": 29
+    },
+    {
+        "id": 535,
+        "name": "scobal/seyren",
+        "repository": "https://github.com/scobal/seyren.git",
+        "creationDate": "4/28/12",
+        "commits": 446,
+        "javaFiles": 94,
+        "contributors": 34
+    },
+    {
+        "id": 240,
+        "name": "aws/aws-sdk-java",
+        "repository": "https://github.com/aws/aws-sdk-java.git",
+        "creationDate": "3/22/10",
+        "commits": 422,
+        "javaFiles": 10673,
+        "contributors": 82
+    },
+    {
+        "id": 300,
+        "name": "orfjackal/retrolambda",
+        "repository": "https://github.com/orfjackal/retrolambda.git",
+        "creationDate": "7/20/13",
+        "commits": 384,
+        "javaFiles": 65,
+        "contributors": 7
+    },
+    {
+        "id": 277,
+        "name": "square/javapoet",
+        "repository": "https://github.com/square/javapoet.git",
+        "creationDate": "2/1/13",
+        "commits": 332,
+        "javaFiles": 31,
+        "contributors": 46
+    },
+    {
+        "id": 303,
+        "name": "zeromq/jeromq",
+        "repository": "https://github.com/zeromq/jeromq.git",
+        "creationDate": "8/1/12",
+        "commits": 316,
+        "javaFiles": 215,
+        "contributors": 39
+    },
+    {
+        "id": 590,
+        "name": "bitfireAT/davdroid",
+        "repository": "https://github.com/bitfireAT/davdroid.git",
+        "creationDate": "8/25/13",
+        "commits": 291,
+        "javaFiles": 438,
+        "contributors": 19
+    },
+    {
+        "id": 982,
+        "name": "bennidi/mbassador",
+        "repository": "https://github.com/bennidi/mbassador.git",
+        "creationDate": "10/23/12",
+        "commits": 236,
+        "javaFiles": 115,
+        "contributors": 15
+    },
+    {
+        "id": 186,
+        "name": "novoda/android-demos",
+        "repository": "https://github.com/novoda/android-demos.git",
+        "creationDate": "7/26/09",
+        "commits": 142,
+        "javaFiles": 69,
+        "contributors": 11
+    },
+    {
+        "id": 409,
+        "name": "jfinal/jfinal",
+        "repository": "https://github.com/jfinal/jfinal.git",
+        "creationDate": "4/25/12",
+        "commits": 102,
+        "javaFiles": 175,
+        "contributors": 6
+    }
+]

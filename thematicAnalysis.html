@@ -1,1 +1,62 @@
-thematicAnalysis.html
+<h2>Thematic Analysis: Themes Before/After Consensus</h2>
+
+<table class="table table-striped table-bordered table-condensed" style="width:400px;">
+<tr><th>Meaning of Colors</th></tr>
+<tr><td><span class="rx-tag rx-tag-neutral">Themes which remained after discussion</span><br>
+<span class="rx-tag rx-tag-rm">Themes discarded after discussion</span><br>
+<span class="rx-tag rx-tag-match2">Final themes identified by both authors</span><br>
+<span class="rx-tag rx-tag-match1">Final themes identified by one author</span><br>
+<span class="rx-tag rx-tag-add">Final themes which emerged from discussion</span></td></tr>
+</table>
+
+
+<table class="table table-striped">
+<tr>
+<th>Id</th><th>Commit</th><th>First Author</th><th>Second Author</th><th>Final Themes</th>
+</tr>
+
+
+
+  <tr ng-repeat="commit in commits">
+    <td>
+    <a class="rx-sha1" target="_blank" href="#/analyzedCommits/{{commit.id}}">{{commit.id}}</a>
+    </td>
+    <td>
+    <div class="rx-commit-header">
+      <span class="rx-project">{{commit.repository.substring(commit.repository.lastIndexOf("/") + 1,commit.repository.lastIndexOf("."))}}</span>
+      <a class="rx-sha1" target="_blank" href="{{commit.repository.substring(0, commit.repository.length - 4)}}/commit/{{commit.sha1}}">{{commit.sha1.substring(0, 7)}}</a>
+      
+    </div>
+    <div>Authored by {{commit.author}}, Committed at <span>{{commit.time}}</span>
+    
+    
+    
+    </td>
+    
+   
+<td>
+<div class="rx-existing-tags">
+  <div ng-repeat="tag in commit.firstAuthorMotivations">
+  	<span ng-class="'rx-tag rx-tag-' + tag.status">{{tag.label}}</span>
+  </div>
+</div>
+</td>
+
+<td>
+<div class="rx-existing-tags">
+  <div ng-repeat="tag in commit.secondAuthorMotivations">
+  	<span ng-class="'rx-tag rx-tag-' + tag.status">{{tag.label}}</span>
+  </div>
+</div>
+</td>
+
+<td>
+<div class="rx-existing-tags">
+  <div ng-repeat="tag in commit.motivations">
+  	<span ng-class="'rx-tag rx-tag-' + tag.status">{{tag.label}}</span>
+  </div>
+</div>
+</td>
+    
+  </tr>
+</table>
