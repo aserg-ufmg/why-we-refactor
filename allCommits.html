@@ -1,1 +1,36 @@
-allCommits.html
+<h2>All Commits with Refactoring ({{commits.length}} entries)</h2>
+
+
+
+<table class="table table-striped">
+<tr>
+<th>Commit</th><th>Refactorings</th>
+</tr>
+
+
+  <tr ng-repeat="commit in commits">
+    <!--<td>
+    <a class="rx-sha1" target="_blank" href="#/allCommits/{{commit.id}}">{{commit.id}}</a>
+    </td>-->
+    <td>
+    <div class="rx-commit-header">
+      <span class="rx-project">{{commit.repository.substring(commit.repository.lastIndexOf("/") + 1,commit.repository.lastIndexOf("."))}}</span>
+      <a class="rx-sha1" target="_blank" href="{{commit.repository.substring(0, commit.repository.length - 4)}}/commit/{{commit.sha1}}">{{commit.sha1.substring(0, 7)}}</a>
+      
+    </div>
+    <div>Authored by {{commit.author}}, Committed at <span>{{commit.time}}</span>
+    
+    
+    
+    </td>
+    
+<td>
+<div>
+  <div ng-repeat="ref in commit.refactorings">
+    <div ng-bind-html="ref | sanitize"></div>
+  </div>
+</div>
+</td>
+    
+  </tr>
+</table>

@@ -19,7 +19,7 @@
 
   <tr ng-repeat="commit in commits">
     <td>
-    <a class="rx-sha1" target="_blank" href="#/analyzedCommits/{{commit.id}}">{{commit.id}}</a>
+    <a class="rx-sha1" target="_blank" href="#/allCommits/{{commit.id}}">{{commit.id}}</a>
     </td>
     <td>
     <div class="rx-commit-header">
@@ -27,7 +27,7 @@
       <a class="rx-sha1" target="_blank" href="{{commit.repository.substring(0, commit.repository.length - 4)}}/commit/{{commit.sha1}}">{{commit.sha1.substring(0, 7)}}</a>
       
     </div>
-    <div>Authored by {{commit.author}}, Committed at <span>{{commit.time}}</span>
+    <div>Authored by {{commit.author}}, Committed at <span>{{commit.time}}</span></div>
     
     
     
