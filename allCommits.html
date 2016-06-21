@@ -27,7 +27,7 @@
 <td>
 <div>
   <div ng-repeat="ref in commit.refactorings">
-    <div ng-bind-html="ref | sanitize"></div>
+    <div ng-bind-html="ref.description | sanitize"></div>
   </div>
 </div>
 </td>
