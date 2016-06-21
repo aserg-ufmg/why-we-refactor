@@ -18,6 +18,15 @@
 
 <hr>
 
+<h4>Refactorings</h4>
+<ul>
+  <li ng-repeat="ref in commit.refactorings">
+    <div ng-bind-html="ref.description | sanitize"></div>
+  </li>
+</ul>
+
+<hr>
+
 <h4>E-mail Body</h4>
 <div class="rx-mail-body">
 <div ng-bind-html="commit.emailBody | sanitize"></div>

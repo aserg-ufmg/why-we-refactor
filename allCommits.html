@@ -4,14 +4,14 @@
 
 <table class="table table-striped">
 <tr>
-<th>Commit</th><th>Refactorings</th>
+<th>Id</th><th>Commit</th><th>Refactorings</th>
 </tr>
 
 
   <tr ng-repeat="commit in commits">
-    <!--<td>
-    <a class="rx-sha1" target="_blank" href="#/allCommits/{{commit.id}}">{{commit.id}}</a>
-    </td>-->
+    <td>
+    {{commit.id}}
+    </td>
     <td>
     <div class="rx-commit-header">
       <span class="rx-project">{{commit.repository.substring(commit.repository.lastIndexOf("/") + 1,commit.repository.lastIndexOf("."))}}</span>
