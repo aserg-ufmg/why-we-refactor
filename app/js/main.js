@@ -5,12 +5,12 @@ var app = angular.module('wwr', [
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $routeProvider.
-    when('/', {templateUrl: 'home.html'}).
-    when('/projects', {templateUrl: 'projects.html', controller: 'projects'}).
-    when('/analyzedCommits', {templateUrl: 'analyzedCommits.html', controller: 'thematicAnalysis'}).
-    when('/allCommits', {templateUrl: 'allCommits.html', controller: 'allCommits'}).
-    when('/thematicAnalysis', {templateUrl: 'thematicAnalysis.html', controller: 'thematicAnalysis'}).
-    when('/analyzedCommits/:commitId', {templateUrl: 'commit.html', controller: 'commit'}).
+    when('/', {templateUrl: 'app/home.html'}).
+    when('/projects', {templateUrl: 'app/projects.html', controller: 'projects'}).
+    when('/analyzedCommits', {templateUrl: 'app/analyzedCommits.html', controller: 'thematicAnalysis'}).
+    when('/allCommits', {templateUrl: 'app/allCommits.html', controller: 'allCommits'}).
+    when('/thematicAnalysis', {templateUrl: 'app/thematicAnalysis.html', controller: 'thematicAnalysis'}).
+    when('/analyzedCommits/:commitId', {templateUrl: 'app/commit.html', controller: 'commit'}).
     otherwise({redirectTo: '/'});
 }]);
 
@@ -23,7 +23,7 @@ app.filter("sanitize", ['$sce', function($sce) {
 app.controller('projects', function projects($scope, $http) {
   $http({
     method: 'GET',
-    url: 'projects.json'
+    url: 'data/projects.json'
   }).then(function successCallback(response) {
     $scope.projects = response.data;
   });
@@ -32,7 +32,7 @@ app.controller('projects', function projects($scope, $http) {
 app.controller('thematicAnalysis', function thematicAnalysis($scope, $http) {
   $http({
     method: 'GET',
-    url: 'thematicAnalysis.json'
+    url: 'data/thematicAnalysis.json'
   }).then(function successCallback(response) {
     $scope.commits = response.data;
   });
@@ -41,7 +41,7 @@ app.controller('thematicAnalysis', function thematicAnalysis($scope, $http) {
 app.controller('allCommits', function allCommits($scope, $http) {
   $http({
     method: 'GET',
-    url: 'refactorings.json'
+    url: 'data/refactorings.json'
   }).then(function successCallback(response) {
     $scope.commits = response.data;
   });
@@ -50,7 +50,7 @@ app.controller('allCommits', function allCommits($scope, $http) {
 app.controller('commit', function commit($scope, $http, $routeParams) {
   $http({
     method: 'GET',
-    url: 'commitMap.json'
+    url: 'data/commitMap.json'
   }).then(function successCallback(response) {
     $scope.commit = response.data[$routeParams.commitId];
   });
