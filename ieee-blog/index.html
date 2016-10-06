@@ -1,0 +1,176 @@
+<html>
+<head>
+
+<title>Why we refactor? Here are 44 different reasons, according to GitHub
+contributors</title>
+
+<style>
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+td, th {
+	padding: 4px 0;
+}
+td:not(:last-child), th:not(:last-child) {
+	padding-right: 4px;
+}
+div.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 570px;
+	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+body {
+	font-size: 12px;
+}
+table {
+	font-size: inherit;
+}
+div.label {
+	font-weight: bold;
+	padding: 4px 0;
+}
+</style>
+</head>
+
+<body>
+<div class="content">
+
+
+<h1>Why we refactor? Here are 44 different reasons, according to GitHub
+contributors</h1>
+
+<p>The adoption of refactoring practices was fostered by the availability of refactoring catalogues, as the one proposed by Martin Fowler [<a href="#ref1">1</a>]. These catalogues propose a name and describe the mechanics of each refactoring, as well as demonstrate its application through code examples. They also provide a motivation for the refactoring, which is usually associated to the resolution of code smells. For example, Extract Method is recommended to decompose a large and complex method or to eliminate code duplication. However, there is a limited number of studies investigating the real motivations driving the refactoring practice. To fill this gap in the literature, we conducted an in-depth investigation on why developers refactor code.</p>
+
+<p>
+During 61 days, we monitored the refactoring activity of 748 GitHub Java repositories, using an automated infrastructure we built. Every time we identified a refactoring, we asked the developer who performed it to explain the reasons behind his/her decision to refactor the code. Next, we categorized their responses into different themes of motivations. The following table presents the results of this process, in the format of a catalogue with 44 distinct motivations for refactoring, grouped by 12 well-known refactoring types.</p>
+
+
+<div class="label">Table 1: Motivations for each refactoring type.</div>
+<table style="border-collapse:collapse">
+<tr style="border-top:solid 2px #3b3b3b;border-bottom:solid 1px #3b3b3b;"><td style="text-align:left">Ref. Type</td><td style="text-align:left">Motivation</td><td colspan="2" style="text-align:left">Occurrences</td></tr>
+
+<tr><td rowspan="11" style="background-color: #fff">Extract Method</td><td>Extract a piece of reusable code from a single place and call the extracted method in multiple places.</td><td style="text-align:right">43</td><td><div style="background-color:#3b3b3b;height:1em;width:43px;"></div></td></tr>
+<tr><td>Introduce an alternative signature for an existing method (e.g., with additional or different parameters) and make the original method delegate to the extracted one.</td><td style="text-align:right">25</td><td><div style="background-color:#3b3b3b;height:1em;width:25px;"></div></td></tr>
+<tr><td>Extract a piece of code having a distinct functionality into a separate method to make the original method easier to understand.</td><td style="text-align:right">21</td><td><div style="background-color:#3b3b3b;height:1em;width:21px;"></div></td></tr>
+<tr><td>Extract a piece of code in a new method to facilitate the implementation of a feature or bug fix, by adding extra code either in the extracted method, or in the original method.</td><td style="text-align:right">15</td><td><div style="background-color:#3b3b3b;height:1em;width:15px;"></div></td></tr>
+<tr><td>Extract a piece of duplicated code from multiple places, and replace the duplicated code instances with calls to the extracted method.</td><td style="text-align:right">14</td><td><div style="background-color:#3b3b3b;height:1em;width:14px;"></div></td></tr>
+<tr><td>Introduce a new method that replaces an existing one to improve its name or remove unused parameters. The original method is preserved for backward compatibility, it is marked as deprecated, and delegates to the extracted one.</td><td style="text-align:right">6</td><td><div style="background-color:#3b3b3b;height:1em;width:6px;"></div></td></tr>
+<tr><td>Extract a piece of code in a separate method to enable its unit testing in isolation from the rest of the original method.</td><td style="text-align:right">6</td><td><div style="background-color:#3b3b3b;height:1em;width:6px;"></div></td></tr>
+<tr><td>Extract a piece of code in a separate method to enable subclasses override the extracted behavior with more specialized behavior.</td><td style="text-align:right">4</td><td><div style="background-color:#3b3b3b;height:1em;width:4px;"></div></td></tr>
+<tr><td>Extract a piece of code to make it a recursive method.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+<tr><td>Extract a constructor call (class instance creation) into a separate method.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Extract a piece of code in a separate method to make it execute in a thread.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr><td rowspan="9" style="background-color: #fff">Move Class</td><td>Move a class to a package that is more functionally or conceptually relevant.</td><td style="text-align:right">13</td><td><div style="background-color:#3b3b3b;height:1em;width:13px;"></div></td></tr>
+<tr><td>Move a group of related classes to a new subpackage.</td><td style="text-align:right">7</td><td><div style="background-color:#3b3b3b;height:1em;width:7px;"></div></td></tr>
+<tr><td>Convert an inner class to a top-level class to broaden its scope.</td><td style="text-align:right">4</td><td><div style="background-color:#3b3b3b;height:1em;width:4px;"></div></td></tr>
+<tr><td>Move an inner class out of a class that is marked deprecated or is being removed.</td><td style="text-align:right">3</td><td><div style="background-color:#3b3b3b;height:1em;width:3px;"></div></td></tr>
+<tr><td>Move a class from a package that contains external API to an internal package, avoiding its unnecessary public exposure.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+<tr><td>Convert a top-level class to an inner class to narrow its scope.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+<tr><td>Move a class to another package to eliminate undesired dependencies between modules.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr><td>Eliminate a redundant nesting level in the package structure.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Move a class back to its original package to maintain backward compatibility.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr><td rowspan="2" style="background-color: #fff">Move Attribute</td><td>Move an attribute to a class that is more functionally or conceptually relevant.</td><td style="text-align:right">15</td><td><div style="background-color:#3b3b3b;height:1em;width:15px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Move similar attributes to another class where a single copy of them can be shared, eliminating the duplication.</td><td style="text-align:right">4</td><td><div style="background-color:#3b3b3b;height:1em;width:4px;"></div></td></tr>
+
+<tr><td rowspan="3" style="background-color: #fff">Rename Package</td><td>Rename a package to better represent its purpose.</td><td style="text-align:right">8</td><td><div style="background-color:#3b3b3b;height:1em;width:8px;"></div></td></tr>
+<tr><td>Rename a package to conform to project's naming conventions.</td><td style="text-align:right">3</td><td><div style="background-color:#3b3b3b;height:1em;width:3px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Move a package to a parent package that is more functionally or conceptually relevant.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+
+<tr><td rowspan="5" style="background-color: #fff">Move Method</td><td>Move a method to a class that is more functionally or conceptually relevant.</td><td style="text-align:right">8</td><td><div style="background-color:#3b3b3b;height:1em;width:8px;"></div></td></tr>
+<tr><td>Move a method to a class that permits its reuse by other classes.</td><td style="text-align:right">3</td><td><div style="background-color:#3b3b3b;height:1em;width:3px;"></div></td></tr>
+<tr><td>Move a method to eliminate dependencies between classes.</td><td style="text-align:right">3</td><td><div style="background-color:#3b3b3b;height:1em;width:3px;"></div></td></tr>
+<tr><td>Move similar methods to another class where a single copy of them can be shared, eliminating duplication.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Move a method to permit subclasses to override it.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr><td rowspan="3" style="background-color: #fff">Inline Method</td><td>Inline and eliminate a method that is unnecessary or has become too trivial after code changes.</td><td style="text-align:right">13</td><td><div style="background-color:#3b3b3b;height:1em;width:13px;"></div></td></tr>
+<tr><td>Inline and eliminate a method because its caller method has become too trivial after code changes, so that it can absorb the logic of the inlined method without compromising readability.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Inline a method because it is easier to understand the code without the method invocation.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr><td rowspan="3" style="background-color: #fff">Extract Superclass</td><td>Introduce a new superclass that contains common state or behavior from its subclasses.</td><td style="text-align:right">7</td><td><div style="background-color:#3b3b3b;height:1em;width:7px;"></div></td></tr>
+<tr><td>Introduce a new superclass that is decoupled from specific dependencies of a subclass.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Extract a superclass from a class that holds many responsibilities.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr style="border-bottom:solid 1px #3b3b3b;"><td style="background-color: #fff">Pull Up Method</td><td>Move common methods to superclass.</td><td style="text-align:right">8</td><td><div style="background-color:#3b3b3b;height:1em;width:8px;"></div></td></tr>
+
+<tr style="border-bottom:solid 1px #3b3b3b;"><td style="background-color: #fff">Pull Up Attribute</td><td>Move common attributes to superclass.</td><td style="text-align:right">7</td><td><div style="background-color:#3b3b3b;height:1em;width:7px;"></div></td></tr>
+
+<tr><td rowspan="3" style="background-color: #fff">Extract Interface</td><td>Introduce an interface to enable different behavior.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr><td>Introduce an interface to facilitate the use of a dependency injection framework.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Introduce an interface to avoid depending on an existing class/interface.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr><td rowspan="2" style="background-color: #fff">Push Down Attribute</td><td>Push down an attribute to allow specialization by subclasses.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+<tr style="border-bottom:solid 1px #3b3b3b;"><td>Push down attribute to subclass so that the superclass does not depend on a specific type.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+
+<tr style="border-bottom:solid 2px #3b3b3b;"><td>Push Down Method</td><td>Push down a method to allow specialization by subclasses.</td><td style="text-align:right">1</td><td><div style="background-color:#3b3b3b;height:1em;width:1px;"></div></td></tr>
+</table>
+
+<p>
+Our findings confirm that Extract Method is the "Swiss army knife of refactorings". It is the refactoring with the most motivations (11 in total), and the majority of them expresses an intention to facilitate or even enable the completion of the maintenance task the developer is working on. In contrast, only two motivations for Extract Method (<emph>decompose method to improve readability</emph> and <emph>remove duplication</emph>) are targeting code smells.
+</p>
+
+<p>
+The other refactorings are performed to improve the system design. For example, the most common motivation for Move Class, Move Attribute, and Move Method is to reorganize code elements, so that they have a stronger functional or conceptual relevance, or to eliminate dependencies between code elements.
+</p>
+
+<p>
+By comparing to the code symptoms that initiate refactoring reported in the study by Kim et al. [<a href="#ref2">2</a>], we found the readability, reuse, testability, duplication, and dependency concerns in common.
+</p>
+
+
+<h2>Automated Refactoring Support</h2>
+
+<p>
+We also asked developers whether they used the automated refactoring support of an IDE to perform refactorings. Thus, we could compare our finding with these previous studies in this area, leading to the following conclusions.
+</p>
+
+
+<ul>
+<li><p>Manual refactoring is still prevalent (55% of the developers refactored manually the code). Inheritance related refactoring tool support seems to be the most under-used (only 10% done automatically), while Move Class and Rename Package are the most trusted refactorings (over 50% done automatically). The prevalence of manually applied refactoring confirms the findings of Murphy-Hill et al. [<a href="#ref3">3</a>] and Negara et al. [<a href="#ref4">4</a>]. However, it seems that developers apply more automated refactorings nowadays.</p></li>
+
+<li><p>The IDE plays an important role in the adoption of refactoring tool support. IntelliJ IDEA users perform more automated refactorings (71% done automatically) than Eclipse users (44%) and Netbeans users (50%).</p></li>
+</ul>
+
+<p>
+29 developers also explained why they did not use a refactoring tool, as summarized in the following table.
+</p>
+
+<div class="label">Table 2: Reasons for not using refactoring tools.</div>
+<table style="border-collapse:collapse">
+<tr style="border-top:solid 2px #3b3b3b;border-bottom:solid 1px #3b3b3b;"><td style="text-align:left">Reason</td><td colspan="2" style="text-align:left">Occurrences</td></tr>
+<tr><td>The developer does not trust automated support for complex refactorings.</td><td style="text-align:right">10</td><td><div style="background-color:#3b3b3b;height:1em;width:10px;"></div></td></tr>
+<tr><td>Automated refactoring is unnecessary, because the refactoring is trivial and can be manually applied.</td><td style="text-align:right">8</td><td><div style="background-color:#3b3b3b;height:1em;width:8px;"></div></td></tr>
+<tr><td>The required modification is not supported by the IDE.</td><td style="text-align:right">6</td><td><div style="background-color:#3b3b3b;height:1em;width:6px;"></div></td></tr>
+<tr><td>The developer is not familiar with the refactoring capabilities of his/her IDE.</td><td style="text-align:right">3</td><td><div style="background-color:#3b3b3b;height:1em;width:3px;"></div></td></tr>
+<tr style="border-bottom:solid 2px #3b3b3b;"><td>The developer did not realize at the moment of the refactoring that he/she could have used refactoring tools.</td><td style="text-align:right">2</td><td><div style="background-color:#3b3b3b;height:1em;width:2px;"></div></td></tr>
+</table>
+
+<p>
+If you are interested in our study, please refer to our paper accepted at FSE 2016:
+</p>
+
+<p>
+Danilo Silva, Nikolaos Tsantalis, Marco Tulio Valente. Why We Refactor? Confessions of GitHub Contributors. [<a href="http://www.dcc.ufmg.br/~mtov/pub/2016-fse-why-we-refactor.pdf" target="_blank">pdf</a>]
+</p>
+
+<h2>References</h2>
+
+
+<p id="ref1">[1] M. Fowler. Refactoring: Improving the Design of Existing Code. Addison-Wesley, Boston, MA, USA, 1999.</p>
+
+<p id="ref2">[2] M. Kim, T. Zimmermann, and N. Nagappan. An empirical study of refactoring challenges and benefits at Microsoft. IEEE Trans. Softw. Eng., 40(7), July 2014.</p>
+
+<p id="ref3">[3] E. R. Murphy-Hill, C. Parnin, and A. P. Black. How we refactor, and how we know it. IEEE Trans. Softw. Eng., 38(1):5-18, 2012.</p>
+
+<p id="ref4">[4] S. Negara, N. Chen, M. Vakilian, R. E. Johnson, and D. Dig. A comparative study of manual and automated refactorings. In Proceedings of the 27th European Conference on Object-Oriented Programming (ECOOP), pages 552-576, 2013.</p>
+
+<!--
+<p>[36] N. Tsantalis, V. Guana, E. Stroulia, and A. Hindle. A multidimensional empirical study on refactoring activity. In Proceedings of the Conference of the Centre for Advanced Studies on Collaborative Research (CASCON), pages 132-146, 2013.</p>
+-->
+
+
+</div>
+</body>
+</html>
